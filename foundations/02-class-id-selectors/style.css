@@ -1,0 +1,21 @@
+/*styles.css*/
+
+.num1 {
+	background-color: pink;
+}
+
+#num2 {
+	color: blue;
+	font-size: 2em;
+}
+
+.num3 {
+	background-color: pink;
+	font-size: 1.2em;
+}
+
+#num4 {
+	background-color: #57F6C1;
+	font-size: 1.1em;
+	font-weight: bold;
+}
