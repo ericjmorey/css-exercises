@@ -1,6 +1,15 @@
+/** {
+  border: 1px solid red;
+}
+*/
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -11,15 +20,39 @@
   padding: 4px 32px;
 }
 
+.right-links {
+  justify-content: space-between;
+  width: 33%;
+}
+
+.left-links {
+  justify-content: space-between;
+  width: 33%;
+}
+
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+}
+
+li {
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  flex: 0;
 }
 
 a {
   font-size: 22px;
+  font-family: Times, "Times New Roman", Georgia, serif;
+  color: darkgreen;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  flex-flow: row nowrap;
 }
